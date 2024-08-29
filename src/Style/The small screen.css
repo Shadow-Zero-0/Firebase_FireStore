@@ -1,0 +1,22 @@
+@media (Max-width: 800px) {
+    .headertitle{
+        flex-direction: column;
+    align-items: center;
+    }
+    .headerlink{margin-right: 0; margin: 20px 0;}
+    .headertitle{
+        height: 150px;
+        
+    }
+    .headertitle a{ 
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .section,.section25{
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 70px;
+        top: 150px;
+    }
+}

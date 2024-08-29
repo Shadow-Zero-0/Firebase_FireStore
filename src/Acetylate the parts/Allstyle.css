@@ -1,0 +1,10 @@
+.dark{
+    background-color: black !important;
+  } 
+  *{
+    font-family:  'Arial Narrow';
+  }
+  .dark1{
+    background-color: rgb(31, 29, 29);
+    color: white;
+  } 

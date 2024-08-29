@@ -1,0 +1,42 @@
+.dadinput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dadinput input{
+    margin-bottom: 30px;
+    height: 30px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.dadinput button{
+    letter-spacing: 1px;
+    height: 40px;
+    padding: 0 7px;
+   text-align: center;
+   border-radius: 9px;
+   background-color: rgb(8, 85, 85);
+   font-size: 20px;
+   transition: all 0.4s;
+   margin-bottom: 15px;
+}
+.dadinput button:hover{
+    cursor: pointer;
+    background-color: rgb(13, 163, 163);
+    color: rgb(0, 0, 0) !important;
+    padding: 0 10px;
+    /* font-size: 22px; */
+}
+ #root > div.section.lighet > div > button{
+    color: white;
+}
+.dadinput h3 a{
+    color: rgb(0, 183, 255);
+    font-size: 22px;
+
+    transition: all 0.5s;
+}
+.dadinput h3 a:hover{
+    color: rgb(63, 50, 50);
+}

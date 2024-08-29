@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+}
+@keyframes headertitle {
+  0% {
+    transform: translateX(400px);
+    color: cyan;
+  }
+  50% {
+    transform: translateX(-100px);
+  }
+  75% {
+    transform: translateX(100px);
+  }
+}
+
+.headertitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(32, 71, 145);
+  height: 70px;
+
+}.headertitle .fa-sun , .fa-moon{
+    font-size: 25px;
+}
+.fa-moon{
+  color: aliceblue;
+}
+.fa-moon:hover{
+  cursor: pointer;
+}
+.fa-sun{
+  color: rgb(248, 224, 85);
+  transition: all 2s ;
+}.fa-sun:hover{
+  transform:rotate(1502deg);
+  cursor: pointer;
+}
+.headertitle a {
+  margin-left: 100px;
+  text-decoration: none;
+  font-size: 35px;
+  color: white;
+  animation: 1.5s headertitle 1;
+}
+.headerlink {
+  margin-right: 80px;
+}
+.headerlink a:hover {
+  color: cyan;
+  box-shadow: 0 0 20px cyan;
+}
+.headerlink a {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  transition: all 0.1s;
+}
+.dark .fa-sun{
+  display: none;
+}
+.lighet .fa-moon{
+  display: none;
+}
+button{
+  all: unset;
+}
+.fa-earth-asia{
+  color: rgb(63, 151, 110);
+  font-size: 25px;
+  margin-right: 20px;
+  transition: all 1s;
+}
+.fa-earth-asia:hover{
+  cursor: pointer;
+  transform:rotate(1502deg);
+}

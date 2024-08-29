@@ -1,0 +1,90 @@
+@keyframes move {
+  0%{  transform: scale(0);}
+  50%{  transform: scale(1.2);}
+  100%{  transform: scale(1);}
+  
+}
+.inputtitle input {
+  all: unset;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: 'line-through wavy black';
+}
+.inputtitle i {
+  font-size: 25px;
+}
+.inputtitle {
+  margin-bottom: 100px;
+  margin-top: 70px;
+
+}
+.inputtitle i:hover {
+  cursor: pointer;
+}
+.parent .checkbox1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.parent .checkbox1 div input:hover,
+label:hover {
+  cursor: pointer;
+}
+.parent .checkbox1 input {
+  height: 18px;
+  width: 18px;
+}
+.parent .checkbox1 label {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.parent {
+  max-width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section25{
+    text-align: center;
+}
+.sectipnfirst{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 20px 0;
+    background-color: rgb(65, 71, 84);
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.sectipnfirst:hover ,.Addtasks:hover{
+    border-left: 4px solid wheat;
+    background-color: rgb(80, 90, 121);
+    cursor: pointer;
+}
+.sectipnfirst i{
+    color: rgb(138, 44, 44);
+}
+.sectipnfirst p{
+    color: rgb(255, 255, 255) !important;
+}
+.firstbutton{
+    margin-top: 100px;
+}
+.Addtasks{
+  display: flex;
+  padding: 10px;
+  background-color: rgb(65, 71, 84);
+  border-radius: 10px;
+  transition: all 0.2s;
+  animation: move 2s 1;
+}
+.Addtasks input{
+  height: 25px;
+  width: 200px;
+  margin-right: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+
+}

@@ -1,0 +1,143 @@
+a{text-decoration: none;}
+.divbutton button,.addnew,.addnew1{
+    all: unset;
+    padding: 10px 10px;
+    font-size: 17px;
+    margin  : 0 15px 0 0;
+    background-color: rgb(50, 81, 182);
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.divbutton button:hover,.addnew:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+select{
+  height: 30px;
+  width: 100px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: #000000;
+}
+.sectionfirst a{
+    margin: 10px;
+}
+.sectionfirst a div{
+    border: 2px solid white;
+    width: 300px;
+    height: 141px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    text-decoration: none;
+    color: white;
+
+}
+.sectionfirst a div:hover{
+    border-left:8px solid white ;
+}
+.sectionfirst a div h2{
+    text-align: center;
+    margin: 10px;
+}
+.sectionfirst a div p{
+    color: cyan;
+    text-align: center;
+}
+.sectionfirst a div li{
+    padding: 5px;
+}
+.sectionfirst{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divbutton{
+    margin-bottom: 100px;
+}
+.sectionfirst{
+    margin-bottom: 100px;
+}
+.lighet .sectionfirst a div{
+    border: 2px solid black;
+    color: #000000;
+}
+.cardmodel{
+    background-color: rgb(66, 64, 64,0.5);
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+  
+}
+.cardmodel div{
+    min-height: 300px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    animation:  move 2s 1;
+
+}
+.cardmodel div input{
+    margin-bottom: 15px;
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px;
+  
+}.cardmodel div Form button{
+    width: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardmodel div Form{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.addnew1:hover{
+    cursor: pointer;
+}
+.cardmodel div Form li{
+    color: #000000;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.fa-xmark{
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+    transition: all 1s;
+}.fa-xmark:hover{
+    cursor: pointer;
+    transform:rotate(1502deg);
+}
+.looding{
+    background-color: #ffffff;
+    color: #333;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 300px;
+    border-radius: 5px;
+    position: fixed;
+    top: 100px;
+    transition: all 1s;
+    text-align: center;
+}.looding p i{
+    color: green;
+}
+@keyframes move {
+    0%{  transform: scale(0);}
+    50%{  transform: scale(1.2);}
+    100%{  transform: scale(1);}
+    
+  }
