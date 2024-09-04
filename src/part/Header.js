@@ -33,7 +33,8 @@ const Header = () => {
        </div>
      
     
-        <div className="headerlink">
+        <div className="headerlink" sx={{  display: 'flex',
+    alignItems: 'center'}}>
         <i onClick={() => {
           i18n.changeLanguage(i18n.language === 'en'? 'er':'en');
         }} className="fa-solid fa-earth-asia"></i>
